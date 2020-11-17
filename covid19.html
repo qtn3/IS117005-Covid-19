@@ -1,0 +1,119 @@
+<!--DEVELOPER: Quang Nguyen, IS117-005, Fall 2020-->
+<!DOCTYPE html>
+<head lang="en">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/style.css">  
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@300&display=swap');
+    </style>
+    <title>What is COVID-19?</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <a class="navbar-branch" href="index.html"><h4 class="display-4">CoVIRAL</h4></a>
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navItemCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navItemCollapse"> 
+            <ul class="navbar-nav ml-auto">
+                <li class="navbar-item dropdown">
+                    <a class="navbar-link dropdown-toggle" href="#" data-toggle="dropdown">General</a>
+                    <div class="dropdown-menu text-center">
+                        <a class="dropdown-item" href="./covid19.html">What is COVID-19?</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="./symptoms.html">Symptoms</a>  
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="./prevent.html">Prevent</a>
+                    </div>
+                </li>
+                <li class="navbar-item">
+                    <a class="navbar-link" href="./donation.html">Donation</a>
+                </li>
+                <li class="navbar-item">
+                    <a class="navbar-link" href="./contact.html">Contact Us</a>
+                </li>
+            </ul>
+            <form class="navbar-form" role="search">
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Search">
+                    <span class="input-group-btn">
+                        <button type="submit" class="btn btn-default">
+                            <span class="fa fa-search">
+                                <span class="sr-only">Search</span>
+                            </span>
+                        </button>
+                    </span>
+                </div>
+            </form>
+        </div>    
+    </nav>
+    <hr>
+    <div class="container-fluid" id="covid19">
+            <div class="row text-center">
+                <div class="col-1"></div>
+                <div class="col-10">
+                    <a class="btn text-center" data-toggle="collapse" data-target="#whatCOVID">
+                        <span class="display-4 text-center">What are coronaviruses?</span>
+                    </a>
+                    <div class="collapse" id="whatCOVID">
+                        <p>
+                            Coronaviruses are a large group of viruses that can cause illness in animals and humans. Some coronaviruses commonly circulate in the United 
+                            States and usually cause upper respiratory symptoms such as cough or runny nose, although some can cause more serious illness. 
+                            The 2019 novel (new) coronavirus causes the illness coronavirus disease 2019 (COVID-19).
+                        </p>
+                    </div>
+                </div>
+                <div class="col-1"></div>
+            </div>
+            <div class="row text-center">
+                <div class="col-1"></div>
+                <div class="col-10">
+                    <a class="btn" data-toggle="collapse" data-target="#virus">
+                        <span class="display-4">What is COVID-19?</span>
+                    </a>
+                    <div class="collapse" id="virus">
+                            <p>
+                                Coronavirus disease 2019 (COVID-19) is defined as illness caused by a novel coronavirus now called severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2; formerly called 2019-nCoV), which was first identified amid an outbreak of respiratory illness cases in Wuhan City, Hubei Province, China. It was initially reported to the WHO on December 31, 2019. On January 30, 2020, the WHO declared the COVID-19 outbreak a global health emergency. 
+                                On March 11, 2020, the WHO declared COVID-19 a global pandemic, its first such designation since declaring H1N1 influenza a pandemic in 2009. Illness caused by SARS-CoV-2 was termed COVID-19 by the WHO, the acronym derived from "coronavirus disease 2019. " 
+                                The name was chosen to avoid stigmatizing the virus's origins in terms of populations, geography, or animal associations
+                            </p>
+                    </div>
+                </div>
+                <div class="col-1"></div>
+            </div>
+            <div class="row text-center">
+                <div class="col-1"></div>
+                <div class="col-10">
+                    <a class="btn" data-toggle="collapse" data-target="#spread">
+                        <span class="display-4">How it spread?</span>
+                    </a>
+                    <div class="collapse" id="spread">
+                        <p>
+                            Current evidence suggests that COVID-19 spreads between people through direct, indirect (through contaminated objects or surfaces), or close contact with infected people via mouth and nose secretions. These include saliva, respiratory secretions or secretion droplets. 
+                            These are released from the mouth or nose when an infected person coughs, sneezes, speaks or sings, for example. 
+                            People who are in close contact (within 1 metre) with an infected person can catch COVID-19 when those infectious droplets get into their mouth, nose or eyes. To avoid contact with these droplets, it is important to stay at least 1 metre away from others, clean hands frequently, and cover the mouth with a tissue or bent elbow when sneezing or coughing. 
+                            When physical distancing (standing one metre or more away) is not possible, wearing a fabric mask is an important measure to protect others. Cleaning hands frequently is also critical.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-1"></div>
+            </div>
+            <hr>
+            <footer>
+                <div class="container text-center">
+                    <div class="row">
+                        <div class="col-12 in">
+                            <p>Copyright &copy Quang Nguyen - 12/01/2020.  <a href="#">Terms of service</a> | <a href="#">Privacy Policy</a> - REVISED</p>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </body>

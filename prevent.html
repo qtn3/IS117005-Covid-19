@@ -1,0 +1,146 @@
+<!--DEVELOPER: Quang Nguyen, IS117-005, Fall 2020-->
+<!DOCTYPE html>
+<head lang="en">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/style.css">  
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@300&display=swap');
+    </style>
+    <title>Prevent COVID-19</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <a class="navbar-branch" href="index.html"><h4 class="display-4">CoVIRAL</h4></a>
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navItemCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navItemCollapse"> 
+            <ul class="navbar-nav ml-auto">
+                <li class="navbar-item dropdown">
+                    <a class="navbar-link dropdown-toggle" href="#" data-toggle="dropdown">General</a>
+                    <div class="dropdown-menu text-center">
+                        <a class="dropdown-item" href="./covid19.html">What is COVID-19?</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="./symptoms.html">Symptoms</a>  
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="./prevent.html">Prevent</a>
+                    </div>
+                </li>
+                <li class="navbar-item">
+                    <a class="navbar-link" href="./donation.html">Donation</a>
+                </li>
+                <li class="navbar-item">
+                    <a class="navbar-link" href="./contact.html">Contact Us</a>
+                </li>
+            </ul>
+            <form class="navbar-form" role="search">
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Search">
+                    <span class="input-group-btn">
+                        <button type="submit" class="btn btn-default">
+                            <span class="fa fa-search">
+                                <span class="sr-only">Search</span>
+                            </span>
+                        </button>
+                    </span>
+                </div>
+            </form>
+        </div>    
+    </nav>
+    <hr>
+    <div class="row">
+        <div class="col-xs-3 col-lg-4">
+            <div class="card">
+                <img class="img-fluid card-img-top" src="./images/social-distancing.jpg" alt="Social Distance" data-toggle="collapse" data-target="#social">
+                <div class="collapse" id="social">
+                    <div class="card-body">
+                        <h4 class="card-title prevent-title">Practice Social Distancing</h4>
+                        <p class="prevent">
+                            If you are around other people, keep 6 feet between you when possible. Avoid hugs, handshakes, large gatherings and close quarters. 
+                            Why? The virus is thought to spread mainly from person-to-person. When someone coughs or sneezes, they spray small liquid droplets from their nose or mouth, which may contain the virus. 
+                            If you are too close, you can breathe in the droplets, including the coronavirus if the person coughing has the disease.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-3 col-lg-4">
+            <div class="card">
+                <img class="img-fluid card-img-top"  src="./images/cover.jpg" alt="Cover when coughing" data-toggle="collapse" data-target="#cover">
+                <div class="collapse" id="cover">
+                    <div class="card-body">
+                        <h4 class="card-title prevent-title">Cover coughs and sneezes</h4>
+                        <p class="prevent">
+                            Cover your mouth and nose with a tissue when you cough or sneeze or use the inside of your elbow. Throw used tissues in the trash.
+                            Why? Droplets spread the virus. By following good respiratory hygiene, you protect the people around you from viruses such as cold, flu and COVID-19.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-3 col-lg-4">
+            <div class="card">
+                <img class="img-fluid card-img-top"  src="./images/clean.jpg" alt="Cleaning surfaces" data-toggle="collapse" data-target="#clean">
+                <div class="collapse" id="clean">
+                    <div class="card-body">
+                        <h4 class="card-title prevent-title">Clean and disinfect “high-touch” surfaces</h4>
+                        <p class="prevent">
+                            Clean AND disinfect frequently touched surfaces daily. This includes tables, doorknobs, light switches, countertops, handles, desks, phones, keyboards, toilets, faucets, and sinks.
+                            If surfaces are dirty, first clean with detergent or soap and water, and then disinfect. Most common EPA-registered household disinfectants, diluted household bleach solutions, and alcohol solutions with at least 70% alcohol will work. 
+                            See how to make a bleach solution if disinfectants are not available.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-2"></div>
+        <div class="col-xs-4 col-lg-4">
+            <div class="card">
+                <img class="img-fluid card-img-top" src="./images/wear_mask.png" alt="Wearing mask" data-toggle="collapse" data-target="#wear">
+                    <div class="collapse" id="wear">
+                        <div class="card-body">
+                        <h4 class="card-title prevent-title">Wear a cloth face cover in public</h4>
+                        <p class="prevent">
+                            Cover your mouth and nose with a cloth face cover when around others and out in public, such as the grocery store.
+                            Do NOT use a facemask meant for a healthcare worker. Don’t place a cloth face cover on young children under age 2, anyone who has trouble breathing, or any who is unable to remove the mask without assistance.
+                            Why? You could spread COVID-19 to others even if you do not feel sick. The cloth face cover is meant to protect other people in case you are infected.
+                        </p>
+                        </div>
+                    </div>
+            </div>
+        </div>
+        <div class="col-xs-4 col-lg-4">
+            <div class="card">
+                <img class="img-fluid card-img-top" src="./images/avoid.jpg" alt="Avoid touching face" data-toggle="collapse" data-target="#avoid">
+                    <div class="collapse" id="avoid">
+                        <div class="card-body">
+                        <h4 class="card-title prevent-title">Avoid touching eyes, nose and mouth</h4>
+                        <p class="prevent">
+                            Why? Hands touch many surfaces and can pick up viruses. Once contaminated, hands can transfer the virus to your eyes, nose or mouth. 
+                        </p>
+                        </div>
+                    </div>
+            </div>
+        </div>
+        <div class="col-2"></div>
+    </div>
+    <hr>
+    <footer>
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-12 in">
+                    <p>Copyright &copy Quang Nguyen - 12/01/2020.  <a href="#">Terms of service</a> | <a href="#">Privacy Policy</a> - REVISED</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+ </body>   

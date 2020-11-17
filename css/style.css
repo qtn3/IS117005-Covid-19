@@ -1,0 +1,267 @@
+:root{
+    --main-text-color: #40e0d0;
+    --main-font-family: 'PT Sans', sans-serif;
+    --main-color-section: #3399ff;
+}
+body{
+    background-color:#343a40;
+}
+hr{
+    background-color:silver;
+    width:95%;
+    margin:28px;
+}
+.h2, h2 {
+    font-size: 100%;
+}
+/*navbar*/
+.navbar-branch{
+    font-weight:bold;
+    color: var(--main-text-color);
+    font-family: var(--main-font-family);
+} 
+.navbar-branch:hover{
+    color:silver;
+}
+.navbar-branch .display-4{
+    font-size: 72pt;
+}
+.navbar-link{
+    padding: 10px;
+    margin:10px;
+    font-size:20px;
+    font-weight:bold;
+    color: var(--main-text-color);
+    font-family: var(--main-font-family);
+}
+.navbar-link:hover{
+    color: silver;
+}
+.navbar a{
+    text-decoration:none;
+    font-size: 18pt;
+}
+.navbar-nav .dropdown-item{
+    padding: 2px;
+    margin:2x;
+    font-size:18px;
+    font-weight:bold;
+    color:var(--main-text-color);
+    font-family: var(--main-font-family);
+}
+.navbar-nav .dropdown-item:hover{
+    color: #343a40;
+}
+/*make dropdown menu smaller*/
+.dropdown-menu{
+    min-width: 9rem;
+    background-color:#343a40;
+}
+
+/*SEARCH BOX*/
+input[type="text"]{
+    width:140px !important;
+}
+button[type="submit"]{
+    background-color: var(--main-text-color);
+}
+
+/*CAROUSEL ICON*/
+.carousel-control-prev-icon, .carousel-control-next-icon{
+    filter:invert(1);
+    height:40px;
+    width:40px;
+}
+
+/*CAROUSEL PICTURES*/
+.carousel-item .img-fluid{
+    width:100%;
+    height:100%;
+}
+
+/*ABOUT US*/
+.container-fluid .aboutus{
+    font-family: var(--main-font-family);
+    color:var(--main-text-color);
+    font-weight: bold;
+    font-size:52pt;
+    width:100%;
+}
+.fa-google-plus-g{
+    font-size:4rem;
+    padding:4px;
+    margin:4px;
+    color: #db4a39;
+}
+.fa-facebook{
+    font-size:4rem;
+    padding:4px;
+    margin:4px;
+    color:#3b5998;
+}
+.fa-twitter{
+    font-size:4rem;
+    padding:4px;
+    margin:4px;
+    color:#00acee;
+}
+.fa-youtube{
+    font-size:4rem;
+    padding:4px;
+    margin:4px;
+    color:#ff0000;
+}
+
+/*COPY,TERMS,PRIVATE*/
+.in p, .in a{
+    color:silver;
+    font-size:18px;
+    font-weight:bold;
+}
+.in a{
+    text-decoration: underline;
+}
+
+/*FORM*/
+/*Make form look bigger*/
+div.form-group input{
+    height:50px;
+    min-width:90%;
+    font-size:14pt;
+}
+
+/*BUTTON*/
+div.container-fluid #donation{
+    padding: 10px;
+    margin: 10px;
+    background-color: var(--main-text-color);
+    font-size: 24px;
+    width: 50%;
+    color:#343a40;
+}
+div.container-fluid #donation:hover{
+    color:white;
+}
+.collapse.show {
+    display: block;
+    width: 99%;
+}
+div.collapse #submit{
+    margin-top:14px;
+    padding:8px;
+    width: 34%;
+}
+
+/*CARD*/
+.card{
+    padding:8px;
+    margin:2px;
+    border:2px solid var(--main-text-color);
+    background-color: #343a40;
+}
+div.form-group p{
+    font-size:20px;
+    color:#40E0D0;
+}
+div.card-body h4{
+    font-family: var(--main-font-family);
+    font-weight:bold;
+    color:var(--main-text-color);
+}
+
+/*SUBMIT BUTTON*/
+div.collapse .btn{
+    color: #343a40;
+}
+div.collapse .btn:hover{
+    color:white;
+}
+
+/*COVID-19 SECTION*/
+a.btn {
+    padding: 20px;
+    margin:20px;
+    border: 2px solid var(--main-color-section);
+    width:100%;
+}
+/*MAKE TEXT ZOOM IN AND ZOOM OUT BY VW (VIEW PORT)*/
+a.btn span{
+    color: var(--main-color-section);
+    font-size: 4vw;
+    font-family: var(--main-font-family);
+}
+#whatCOVID, #virus, #spread{
+    padding:10px;
+    margin:10px;
+    font-family: var(--main-font-family);
+    font-size:120%;
+    text-align: left;
+    color:silver;
+}
+#covid19{
+    background-color: #343a40;
+}
+
+/*SYMPTOMS*/
+.symptoms{
+    color: var(--main-color-section);
+    font-size: 24pt;
+    font-family: var(--main-font-family);
+    margin:10px;
+}
+.img-fluid{
+    object-fit:cover;
+    height:400px;
+    width:400px;
+}
+
+/*PREVENT*/
+.card-img-top{
+    width:100%;
+    height:28vw;
+    object-fit:cover;
+}
+.prevent-title{
+    color: var(--main-color-section) !important;
+}
+.prevent{
+    font-size: 20pt;
+    font-family: var(--main-font-family);
+    color: silver;
+}
+#donation_form{
+    margin: 0px 14px;
+}
+#donation_form #submit{
+    padding: 8px;
+    color: #343a40;
+    width: 282px;
+    height: 54px;
+}
+#donation_form #submit:hover{
+    color: white;
+}
+div#contact{
+    width: 100%;
+}
+div#contact .form-group{
+    width: 100%;
+}
+div#contact form input{
+    width: 90% !important;
+}
+
+#contact #submit{
+    padding: 8px;
+    color: #343a40;
+    width: 282px;
+    height: 54px;
+}
+#contact #submit:hover{
+    color: white;
+}
+p {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-size: 20pt;
+}

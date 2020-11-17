@@ -1,0 +1,165 @@
+<!--DEVELOPER: Quang Nguyen, IS117-005, Fall 2020-->
+<!DOCTYPE html>
+<head lang="en">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/style.css">  
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@300&display=swap');
+    </style>
+    <title>Symptoms of COVID-19</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <a class="navbar-branch" href="index.html"><h4 class="display-4">CoVIRAL</h4></a>
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navItemCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navItemCollapse"> 
+            <ul class="navbar-nav ml-auto">
+                <li class="navbar-item dropdown">
+                    <a class="navbar-link dropdown-toggle" href="#" data-toggle="dropdown">General</a>
+                    <div class="dropdown-menu text-center">
+                        <a class="dropdown-item" href="./covid19.html">What is COVID-19?</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="./symptoms.html">Symptoms</a>  
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="./prevent.html">Prevent</a>
+                    </div>
+                </li>
+                <li class="navbar-item">
+                    <a class="navbar-link" href="./donation.html">Donation</a>
+                </li>
+                <li class="navbar-item">
+                    <a class="navbar-link" href="./contact.html">Contact Us</a>
+                </li>
+            </ul>
+            <form class="navbar-form" role="search">
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Search">
+                    <span class="input-group-btn">
+                        <button type="submit" class="btn btn-default">
+                            <span class="fa fa-search">
+                                <span class="sr-only">Search</span>
+                            </span>
+                        </button>
+                    </span>
+                </div>
+            </form>
+        </div>    
+    </nav>
+    <hr>
+    <div class="row text-center">
+        <div class="col-xs-3 col-md-3">
+            <div class="card">
+                    <img class="img-fluid card-img-top" src="./images/fever.jpg" alt="Fever symptom" data-toggle="collapse" data-target="#fever">
+                        <div class="collapse" id="fever">
+                            <p class="card-title symptoms">Fever</p>
+                        </div>
+                    </img>
+            </div>
+        </div>
+        <div class="col-xs-3 col-md-3">
+            <div class="card">
+                    <img class="img-fluid card-img-top" src="./images/fatigue.jpg" alt="Fatigue symptom" data-toggle="collapse" data-target="#fatigue">
+                    <div class="card-title collapse" id="fatigue">
+                        <p class="symptoms">Fatigue</p>
+                    </div>
+            </div>
+        </div>
+        <div class="col-xs-3 col-md-3">
+            <div class="card">
+                    <img class="img-fluid card-img-top" src="./images/headache.jpg" alt="Headache symptom" data-toggle="collapse" data-target="#headache">
+                    <div class="card-title collapse" id="headache">
+                        <p class="symptoms">Headache</p>
+                    </div>
+            </div>
+        </div>
+        <div class="col-xs-3 col-md-3">
+            <div class="card">
+                    <img class="img-fluid card-img-top" src="./images/coughing.jpg" alt="Cough symptom" data-toggle="collapse" data-target="#coughing">
+                    <div class="card-title collapse" id="coughing">
+                        <p class="symptoms">Coughing</p>
+                    </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="row text-center">
+        <div class="col-xs-3 col-md-3">
+            <div class="card">
+                    <img class="img-fluid card-img-top" src="./images/vomit.jpg" alt="Vomit symptom" data-toggle="collapse" data-target="#vomit">
+                    <div class="card-title collapse" id="vomit">
+                        <p class="symptoms">Vomit</p>
+                    </div>
+            </div>
+        </div>
+        <div class="col-xs-3 col-md-3">
+            <div class="card">
+                    <img class="img-fluid card-img-top" src="./images/less_taste.png" alt="Loss of smell or taste symptom" data-toggle="collapse" data-target="#taste">
+                    <div class="card-title collapse" id="taste">
+                        <p class="symptoms">New loss of taste or smell</p>
+                    </div>
+            </div>
+        </div>
+        <div class="col-xs-3 col-md-3">
+            <div class="card">
+                    <img class="img-fluid card-img-top" src="./images/muscle_pain.jpg" alt="Muscle pain symptom" data-toggle="collapse" data-target="#muscle">
+                    <div class="card-title collapse" id="muscle">
+                        <p class="symptoms">Muscle or body aches</p>
+                    </div>
+            </div>
+        </div>
+        <div class="col-xs-3 col-md-3">
+            <div class="card">
+                    <img class="img-fluid card-img-top" src="./images/running_nose.jpg" alt="Running nose symptom" data-toggle="collapse" data-target="#running">
+                    <div class="card-title collapse" id="running">
+                        <p class="symptoms">Congestion or runny nose</p>
+                    </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="row text-center">
+        <div class="col-xs-4 col-md-4">
+            <div class="card">
+                    <img class="img-fluid card-img-top" src="./images/diarrhea.png" alt="Diarrhea symptom" data-toggle="collapse" data-target="#diarrhea">
+                    <div class="card-title collapse" id="diarrhea">
+                        <p class="symptoms">Diarrhea</p>
+                    </div>
+            </div>
+        </div>
+        <div class="col-xs-4 col-md-4">
+            <div class="card">
+                    <img class="img-fluid card-img-top" src="./images/short_breath.jpg" alt="Short breath symptom" data-toggle="collapse" data-target="#short_breath">
+                    <div class="card-title collapse" id="short_breath">
+                        <p class="symptoms">Short Breath</p>
+                    </div>
+            </div>
+        </div>
+        <div class="col-xs-4 col-md-4">
+            <div class="card">
+                    <img class="img-fluid card-img-top" src="./images/sore_throat.jpg" alt="Sore throat symptom" data-toggle="collapse" data-target="#sore_throat">
+                    <div class="card-title collapse" id="sore_throat">
+                        <p class="symptoms">Sore Throat</p>
+                    </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <footer>
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-12 in">
+                    <p>Copyright &copy Quang Nguyen - 12/01/2020.  <a href="#">Terms of service</a> | <a href="#">Privacy Policy</a> - REVISED</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
